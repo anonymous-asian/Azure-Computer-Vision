@@ -180,6 +180,7 @@ namespace WindowsFormsApp1
             }
 
             //Show result of Computer Vision API on TextBow
+            //MessageBox.Show("Some text");
             textBox1.Text = "";
             textBox1.Text = analysisResult.Color.DominantColors.ToString();
             //textBox1.Text = imageUri.ToString();
